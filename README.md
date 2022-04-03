@@ -1,2 +1,2 @@
-# config_switch_huawei
+# config_switch
  Configurações de switches.
