@@ -1,0 +1,22 @@
+# Configurar o nome do equipamento:
+system-view
+sysname sw-teste01
+
+# Criar VLAN:
+vlan 3
+description teste
+
+# Configurar IP com Vlan Interface:
+[sw-teste01]interface Vlanif 2
+[sw-teste01-Vlanif3]ip address 10.2.2.1 24
+
+# Criar vlan
+vlan 2
+description VLAN_TESTE
+
+# Configurar a porta como Access:
+interface GigabitEthernet 0/0/1
+port link-type access
+
+# Adicionar vlan untagged na porta:
+port default vlan 2
