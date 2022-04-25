@@ -20,3 +20,9 @@ port link-type access
 
 # Adicionar vlan untagged na porta:
 port default vlan 2
+
+# Configurar porta trunk:
+interface GigabitEthernet0/0/1
+ port link-type trunk
+ port trunk pvid vlan 10
+ port trunk allow-pass vlan 10 20 30
