@@ -1,0 +1,2 @@
+#Configurar NTP:
+ntp-service unicast-server 10.2.2.1
