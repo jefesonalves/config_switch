@@ -26,3 +26,6 @@ interface GigabitEthernet0/0/1
  port link-type trunk
  port trunk pvid vlan 10
  port trunk allow-pass vlan 10 20 30
+
+#Desativar complexidade do snmp
+snmp-agent community complexity-check disable
