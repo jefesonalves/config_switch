@@ -29,3 +29,5 @@ interface GigabitEthernet0/0/1
 
 # Desativar complexidade do snmp
 snmp-agent community complexity-check disable
+
+#
